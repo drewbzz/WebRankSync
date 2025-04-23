@@ -1,0 +1,14 @@
+
+name: WebRankSync
+version: 1.0
+main: com.example.webranksync.WebRankSyncPlugin
+api-version: 1.16
+commands:
+  syncwebrole:
+    description: Manually sync a player's web role.
+    usage: /syncwebrole <player>
+    permission: websync.sync
+permissions:
+  websync.sync:
+    description: Allows manual syncing of web roles
+    default: op
