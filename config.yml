@@ -1,0 +1,27 @@
+
+mysql:
+  host: "localhost"
+  port: 3306
+  database: "azuriom"
+  username: "your_username"
+  password: "your_password"
+
+sync:
+  role_column: "role_id"
+  user_column: "name"
+  table: "users"
+  role_mappings:
+    "1": "member"
+    "2": "owner"
+    "3": "admin"
+    "4": "mod"
+    "5": "minimod"
+    "6": "creative"
+    "7": "vip"
+    "8": "diamond"
+    "9": "gold"
+    "10": "donator"
+    "11": "regular"
+
+permissions:
+  command_sync: "websync.sync"
